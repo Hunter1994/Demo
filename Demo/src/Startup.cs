@@ -30,7 +30,7 @@ namespace src
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("你好！");
+                await context.Response.WriteAsync("我不好！");
             });
         }
     }
